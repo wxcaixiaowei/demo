@@ -417,13 +417,7 @@ public class InvoiceExcelServiceImpl implements InvoiceExcelService {
 			dataCell.setCellValue(deviceDetails.getCustomerFullName());
 
 			dataCell = createNewCell(dataRow, colIndex++, cellStyle);
-			dataCell.setCellValue(deviceDetails.getInvoicePeriod());
-
-			dataCell = createNewCell(dataRow, colIndex++, null);
-			dataCell.setCellValue(deviceDetails.getOrderDate());
-
-			dataCell = createNewCell(dataRow, colIndex++, null);
-			dataCell.setCellValue(deviceDetails.getProductName());
+			datviceDetails.getProductName());
 
 			}
 
@@ -449,7 +443,7 @@ public class InvoiceExcelServiceImpl implements InvoiceExcelService {
 			Row dataRow = leadsSheet.createRow(rowIndex);
 
 			Cell dataCell = createNewCell(dataRow, colIndex++, null);
-			dataCell.setCellValue(lead.getCustomerEmail());
+			dataCell.setCasdjaslkjdlkajsellValue(lead.getCustomerEmail());
 
 			dataCell = createNewCell(dataRow, colIndex++, cellStyle);
 			dataCell.setCellValue(lead.getPriorCommission());
