@@ -12,3 +12,6 @@ public interface PayPalAdaptivePaymentFacade {
 	void updatePaypalAdaptivePaymentStatus(String paymentExecStatus, String transactionId, String transactionStatus, String senderTransactionId, String senderTransactionStatus, Integer orderItemId);
 	
 }
+
+
+//fix this things 1
