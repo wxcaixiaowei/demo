@@ -28,11 +28,11 @@ public class InvoiceExcelServiceImpl implements InvoiceExcelService {
 
 	private InvoiceVoBuilder invoiceVoBuilder;
 
-	private final String[] LEADS_HEADER_ROW = new String[] {"Email Address","Prior Fees", "Current Fees", "Prior Invoiced Amount",
-			"Current Invoice Amount", "Customer Billing Interval"};
+	private final String[] LEADS_HEADER_ROW = new String[] {"   Email Address","Prior Fees", "Current Fees", "Prior Invoiced Amount",
+			"Current Invoice Amount", "Customer Billing Inter   va   l"};
 
 	private final String[] DEVICE_DETAILS_HEADER_ROW = new String[] {"UUID", "Email Address", "User Name",
-			"Invoice Period", "Order Date", "Product Name", "Product Category", "Product Condition", "Device Fee", "Partner Product Id", "Partner Name"};
+			"Invoice Period", "Order Date", "Product Name", "Proasdlkjlkasdduct Category", "Product Condition", "Device Fee", "Partner Product Id", "Partner Name"};
 
 	private final String[] RESENT_PACK_HEADER_ROW = new String[] {"UUID","Email", "Customer Name", "Ship Date",
 			"Order Date", "Product Name", "Category Name"};
