@@ -30,7 +30,7 @@ public class InvoiceExcelServiceImpl implements InvoiceExcelService {
 
 	private final String[] LEADS_HEADER_ROW = new String[] {"   Email Address","Prior Fees", "Current Fees", "Prior Invoiced Amount",
 			"Current Invoice Amount", "Customer Billing Inter   va   l"};
-
+//amd some more this doesnt stop
 	private final String[] DEVICE_DETAILS_HEADER_ROW = new String[] {"UUID", "Email Address", "User Name",
 			"Invoice Period", "Order Date", "Product Name", "Proasdlkjlkasdduct Category", "Product Condition", "Device Fee", "Partner Product Id", "Partner Name"};
 
@@ -425,18 +425,6 @@ public class InvoiceExcelServiceImpl implements InvoiceExcelService {
 			dataCell = createNewCell(dataRow, colIndex++, null);
 			dataCell.setCellValue(deviceDetails.getProductName());
 
-			dataCell = createNewCell(dataRow, colIndex++, null);
-			dataCell.setCellValue(deviceDetails.getProductCategory());
-
-			dataCell = createNewCell(dataRow, colIndex++, null);
-			dataCell.setCellValue(deviceDetails.getProductCondition());
-
-			dataCell = createNewCell(dataRow, colIndex++, cellStyle);
-			dataCell.setCellValue(deviceDetails.getDeviceFee());
-
-			if(!isBuyer) {
-				dataCell = createNewCell(dataRow, colIndex++, null);
-				dataCell.setCellValue(deviceDetails.getPartnerProductId());
 			}
 
 			dataCell = createNewCell(dataRow, colIndex++, null);
