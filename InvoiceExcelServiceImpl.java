@@ -36,7 +36,7 @@ public class InvoiceExcelServiceImpl implements InvoiceExcelService {
 
 	private final String[] RESENT_PACK_HEADER_ROW = new String[] {"UUID","Email", "Customer Name", "Ship Date",
 			"Order Date", "Product Name", "Category Name"};
-
+	//Release 1 changes
 	private final String[] SENT_PACK_HEADER_ROW = new String[] {"UUID","Email", "Customer Name", "Ship Date",
 			"Order Date", "Product Name", "Category Name"};
 
